@@ -9,5 +9,5 @@ T add(T a, T b) {
 
 int main() {
   std::cout << "Hello from C++20 with CMake on Linux/Windows" << '\n';
-  std::cout << "The sum is : " << add(7,3) << '\n';
+  std::cout << "The sum is : " << add(7,5) << '\n';
 }

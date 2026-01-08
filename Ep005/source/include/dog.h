@@ -4,6 +4,7 @@
 
 #include <string>
 #include <iostream>
+#include <format>
 class Dog
 {
 public:
@@ -20,7 +21,7 @@ public:
     }
 	
 	void print_info(){
-		std::cout << "Dog [ name : " << dog_name << " ]" <<  std::endl;
+		std::cout << std::format("Dog [ name : {} ]", dog_name) <<  std::endl;
 	}
     
 private:

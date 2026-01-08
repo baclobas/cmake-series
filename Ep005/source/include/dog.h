@@ -3,8 +3,7 @@
 
 
 #include <string>
-#include <iostream>
-#include <format>
+#include <print>
 class Dog
 {
 public:
@@ -21,7 +20,7 @@ public:
     }
 	
 	void print_info(){
-		std::cout << std::format("Dog [ name : {} ]", dog_name) <<  std::endl;
+		std::println("Dog [ name : {} ]", dog_name);
 	}
     
 private:

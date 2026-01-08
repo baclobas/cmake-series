@@ -1,13 +1,13 @@
 #include "dog.h"
-#include <iostream>
-#include <format>
+#include <print>
+
 Dog::Dog(std::string name_param) : dog_name(name_param)
 {
-    std::cout << std::format("Constructor for dog {} called.", dog_name) << std::endl;
+    std::println("Constructor for dog {} called.", dog_name);
 }
 
 Dog::~Dog()
 {
-    std::cout << std::format("Destructor for dog {} called", dog_name) << std::endl;
+    std::println("Destructor for dog {} called", dog_name);
 }
 
